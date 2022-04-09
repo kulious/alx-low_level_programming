@@ -27,10 +27,12 @@ int main(void)
 					break;
 				}
 				putchar(',');
-				putchar(' ');								}										i++;
+				putchar(' ');
+			}
+			i++;
 		}
 		e++;
-											}
+	}
 	putchar('\n');
 	return (0);
 }
